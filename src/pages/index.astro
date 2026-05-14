@@ -29,7 +29,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                 </div>
 
                 <div class="max-w-7xl w-full">
-                    <div class="flex flex-col gap-12">
+                    <div class="flex flex-col gap-10">
                         <div class="flex items-center gap-4 animate-fade-in">
                             <div class="flex items-center gap-2 px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5 backdrop-blur-md">
                                 <span class="relative flex h-2 w-2">
@@ -54,7 +54,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                             </div>
                         </div>
 
-                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-10">
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 mt-0 md:mt-10">
                             <div class="lg:col-span-7">
                                 <p class="text-xl md:text-2xl font-light text-neutral-400 leading-snug">
                                     Titulado en <span class="text-white font-medium underline decoration-blue-500/30 underline-offset-8">DAW</span>. 
@@ -62,7 +62,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                                 </p>
                             </div>
                             
-                            <div class="lg:col-span-5 flex flex-col justify-end gap-10">
+                            <div class="lg:col-span-5 flex flex-col justify-end gap-8 md:gap-10">
                                 <a href="#proyectos" class="group relative flex items-end gap-4 px-2">
                                     <div class="relative overflow-hidden pr-6"> 
                                         <span class="block text-4xl md:text-5xl font-black uppercase tracking-tighter text-white transition-transform duration-500 group-hover:-translate-y-full">Proyectos</span>
@@ -84,7 +84,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                             </div>
                         </div>
 
-                        <div class="mt-20 pt-10 border-t border-white/5 flex flex-wrap gap-x-12 gap-y-6 opacity-20">
+                        <div class="mt-0 md:mt-20 pt-0 md:pt-10 border-t border-white/5 flex flex-wrap gap-x-12 gap-y-2 md:gap-y-6 opacity-20">
                             <span class="text-[10px] font-mono uppercase tracking-[0.5em]">PHP / Laravel</span>
                             <span class="text-[10px] font-mono uppercase tracking-[0.5em]">MySQL / Architecture</span>
                             <span class="text-[10px] font-mono uppercase tracking-[0.5em]">Tailwind CSS / Astro</span>
@@ -96,6 +96,17 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
 
             <section id="tech" class="py-24 md:py-40 px-6 bg-black overflow-hidden">
                 <div class="max-w-7xl mx-auto">
+
+                    <div class="flex flex-col lg:flex-row gap-6 lg:items-end mb-24 md:mb-48 border-b border-white/5 pb-10">
+                        <h2 id="stack-title" class="text-[22vw] lg:text-[9vw] font-black leading-[0.7] tracking-tighter text-white">
+                            STACK
+                        </h2>
+                        <div class="flex-1 lg:pl-10">
+                            <p class="text-lg md:text-2xl font-extralight text-neutral-500 max-w-md leading-none lowercase tracking-tighter italic">
+                                Engineering meets <br/> intelligent automation.
+                            </p>
+                        </div>
+                    </div>
                     
                     <div class="flex flex-col lg:grid lg:grid-cols-12 gap-y-32 lg:gap-x-12 xl:gap-x-20 items-start">
                         
@@ -284,7 +295,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                                     </div>
                                     
                                     <div class="cursor-default overflow-hidden">
-                                        <h3 class="text-7xl md:text-[9rem] font-black leading-[0.8] uppercase tracking-tighter">
+                                        <h3 class="text-6xl md:text-[9rem] font-black leading-[0.8] uppercase tracking-tighter">
                                             <div class="relative block h-[0.9em] overflow-hidden">
                                                 <span class="absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
                                                     text-transparent [-webkit-text-stroke:2px_rgba(255,255,255,0.2)]
@@ -340,7 +351,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
             <section id="proyectos" class="py-32 px-6 bg-[#050505]">
                 <div class="max-w-7xl mx-auto">
                     <div class="flex flex-col mb-24 space-y-4">
-                        <h2 id="projects-title" class="text-7xl md:text-[8rem] font-black text-white tracking-tighter uppercase italic leading-none will-change-transform transition-all duration-1000 opacity-0 translate-y-20">
+                        <h2 id="projects-title" class="text-[4.2rem] md:text-[8rem] font-black text-white tracking-tighter uppercase italic leading-none will-change-transform transition-all duration-1000 opacity-0 translate-y-20">
                             Mis <span class="text-transparent" style="-webkit-text-stroke: 1px rgba(255,255,255,0.2);"><br>Trabajos</span>
                         </h2>
                     </div>
@@ -498,12 +509,14 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                     <div class="grid grid-cols-1 md:grid-cols-12 gap-24">
                         
                         <div class="md:col-span-5 space-y-12">
-                            <h3 class="text-7xl md:text-8xl font-black text-white leading-[0.8] uppercase tracking-tighter">
+                            <h3 id="trigger-build" class="text-7xl md:text-8xl font-black text-white leading-[0.8] uppercase tracking-tighter">
                                 <div class="overflow-hidden">
-                                    <span class="block animate-reveal-up">LET'S</span>
+                                    <span class="reveal-text block translate-y-full opacity-0 transition-all duration-700 ease-out">
+                                        LET'S
+                                    </span>
                                 </div>
                                 <div class="overflow-hidden">
-                                    <span class="block text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.3)] italic animate-reveal-up [animation-delay:200ms]">
+                                    <span class="reveal-text block text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.3)] italic translate-y-full opacity-0 transition-all duration-700 ease-out delay-200">
                                         BUILD.
                                     </span>
                                 </div>
@@ -696,15 +709,32 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-            if (entry.isIntersecting && projectsTitle) {
-
-                projectsTitle.classList.remove('opacity-0', 'translate-y-20');
-                projectsTitle.classList.add('opacity-100', 'translate-y-0');
+            if (entry.isIntersecting) {
+                if (entry.target.id === 'trigger-build') {
+                    const spans = entry.target.querySelectorAll('.reveal-text');
+                    spans.forEach(span => {
+                        span.classList.remove('translate-y-full', 'opacity-0');
+                        span.classList.add('translate-y-0', 'opacity-100');
+                    });
+                    observer.unobserve(entry.target); 
+                } 
+                
+                if (entry.target === projectsTitle) {
+                    entry.target.classList.remove('opacity-0', 'translate-y-20');
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    observer.unobserve(entry.target);
+                }
             }
         });
-    }, { threshold: 0.2 });
+    }, { threshold: 0.9 }); 
+
+    const triggerBuild = document.querySelector('#trigger-build');
+    if (triggerBuild) observer.observe(triggerBuild);
 
     if (projectsTitle) observer.observe(projectsTitle);
+
+    const revealSpans = document.querySelectorAll('.reveal-text');
+    revealSpans.forEach(span => observer.observe(span));
 
     window.addEventListener('scroll', handleScroll);
     handleScroll();
@@ -717,7 +747,6 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         
-        // Cambio de estado visual (Loading)
         btnText.innerText = "DEPLOYING...";
         submitBtn.style.pointerEvents = "none";
         submitBtn.style.opacity = "0.5";
@@ -731,7 +760,6 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
             });
 
             if (response.ok) {
-                // Éxito
                 form.reset();
                 btnText.innerText = "DEPLOYED";
                 successMsg.classList.remove('hidden');
