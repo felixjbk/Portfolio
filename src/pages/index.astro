@@ -118,20 +118,27 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                                     <span>Backend & Architecture</span>
                                 </div>
                                 
-                                <div class="relative overflow-hidden group/reveal py-2 cursor-default">
-                                    <h3 class="text-5xl md:text-7xl xl:text-8xl font-bold text-white leading-none transition-transform duration-500 group-hover/reveal:-translate-y-[110%] tracking-tighter uppercase">
-                                        SOFTWARE <br/> 
-                                        <span class="text-black" style="-webkit-text-stroke: 1px rgba(255,255,255,0.5);">
+                                <div class="group/section py-2 cursor-default">
+                                    <h3 class="text-5xl md:text-7xl xl:text-8xl font-bold leading-none tracking-tighter uppercase">
+                                        
+                                        <span class="block text-white transition-all duration-500 
+                                            group-hover/section:text-transparent 
+                                            group-hover/section:[-webkit-text-stroke:1px_rgba(255,255,255,0.5)]">
+                                            SOFTWARE
+                                        </span>
+
+                                        <span class="block transition-all duration-500 
+                                            text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.3)]
+                                            group-hover/section:text-blue-500 
+                                            group-hover/section:italic 
+                                            group-hover/section:[-webkit-text-stroke:0px]">
                                             ENGINEERING
                                         </span>
-                                    </h3>
-                                    <h3 class="text-5xl md:text-7xl xl:text-8xl font-bold leading-none absolute top-full left-0 transition-transform duration-500 group-hover/reveal:-translate-y-[110%] tracking-tighter uppercase">
-                                        <span class="text-black" style="-webkit-text-stroke: 1px rgba(255,255,255,0.5);">SOFTWARE</span> <br/> 
-                                        <span class="text-blue-500 italic">ENGINEERING</span>
+                                        
                                     </h3>
                                 </div>
                                 
-                                <p class="text-neutral-300 text-xl md:text-2xl lg:text-2xl xl:text-2xl font-light leading-relaxed max-w-xl">
+                                <p class="text-neutral-300 text-xl md:text-3xl lg:text-2xl xl:text-2xl font-light leading-relaxed max-w-2xl">
                                     Desarrollo de arquitecturas robustas y escalables bajo el patrón MVC, garantizando una lógica de servidor eficiente y una gestión de datos optimizada.
                                 </p>
 
@@ -151,30 +158,32 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                             </div>
                         </div>
 
-                        <div class="w-full lg:col-span-5 flex flex-col justify-end group/section lg:pt-20 border-t border-white/5 pt-20 lg:border-none">                   
-                            <div class="space-y-6 md:space-y-10 relative">
-                                <div class="flex items-center gap-6 text-indigo-500 font-mono text-xs tracking-widest uppercase">
+                        <div class="w-full lg:col-span-5 flex flex-col justify-end items-end lg:items-start group/section lg:pt-20 border-t lg:border-white/5 border-black pt-0 lg:border-none">                   
+                            
+                            <div class="space-y-6 md:space-y-10 relative flex flex-col items-end lg:items-start w-full">
+                                
+                                <div class="flex flex-row-reverse lg:flex-row items-center gap-6 text-indigo-500 font-mono text-xs tracking-widest uppercase w-full">
                                     <span>02</span>
                                     <div class="h-px flex-1 bg-indigo-500/20"></div>
                                     <span>Frontend & UI</span>
                                 </div>
                                 
-                                <div class="relative overflow-hidden group/reveal py-2 cursor-default">
-                                    <h3 class="text-5xl md:text-7xl font-bold text-white leading-none transition-transform duration-500 group-hover/reveal:-translate-y-[110%] tracking-tighter">
+                                <div class="relative overflow-hidden group/reveal py-2 cursor-default text-right lg:text-left w-full">
+                                    <h3 class="text-5xl md:text-8xl font-bold text-white leading-none transition-transform duration-500 group-hover/reveal:-translate-y-[110%] tracking-tighter">
                                         VISUAL <br/> FIDELITY
                                     </h3>
                                     
-                                    <h3 class="text-5xl md:text-7xl font-bold leading-none absolute top-full left-0 transition-transform duration-500 group-hover/reveal:-translate-y-[110%] italic tracking-tighter">
+                                    <h3 class="text-5xl md:text-8xl font-bold leading-none absolute top-full right-0 lg:right-auto lg:left-0 transition-transform duration-500 group-hover/reveal:-translate-y-[110%] italic tracking-tighter w-full">
                                         <span class="text-indigo-400">VISUAL</span> <br/> 
                                         <span class="text-transparent" style="-webkit-text-stroke: 1px rgba(255,255,255,0.5);">FIDELITY</span>
                                     </h3>
                                 </div>
 
-                                <p class="text-neutral-300 text-xl md:text-2xl lg:text-md xl:text-xl font-light leading-snug max-w-2xl">
+                                <p class="text-neutral-300 text-xl md:text-3xl lg:text-md xl:text-xl font-light leading-snug max-w-2xl text-right lg:text-left">
                                     Fidelidad total en la implementación de diseños UI/UX complejos, transformando prototipos estáticos en interfaces dinámicas, responsivas y con una experiencia de usuario fluida.
                                 </p>
                                 
-                                <div class="flex flex-wrap gap-4 pt-4">
+                                <div class="flex flex-wrap justify-end lg:justify-start gap-4 pt-4 w-full">
                                     {['astro', 'tailwind', 'js', 'jquery'].map((tech) => (
                                         <div class="group/tech relative flex flex-col items-center">
                                             <img src={`https://skillicons.dev/icons?i=${tech}`} 
@@ -190,7 +199,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                             </div>
                         </div>
 
-                        <div class="md:col-span-12 border-t border-white/5 pt-32 group/section">
+                        <div class="md:col-span-12 border-t border-black lg:border-white/5 pt-0 lg:pt-32 group/section">
                             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
                                 <div class="lg:col-span-5 space-y-10">
                                     <div class="flex items-center gap-6 text-blue-400 font-mono text-xs tracking-widest uppercase">
@@ -229,7 +238,7 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                             </div>
                         </div>
 
-                        <div class="md:col-span-12 border-t border-white/5 pt-32 group/section">
+                        <div class="md:col-span-12 border-t lg:border-white/5 border-black lg:pt-32 pt-0 group/section">
                             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                                 
                                 <div class="lg:col-span-5 flex justify-center lg:justify-start relative overflow-visible hidden lg:flex">
@@ -287,41 +296,42 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                                     </div>
                                 </div>
 
-                                <div class="lg:col-span-7 flex flex-col lg:items-end lg:text-right space-y-10">
-                                    <div class="flex items-center gap-6 text-indigo-500 font-mono text-xs tracking-widest uppercase w-full">
+                                <div class="lg:col-start-6 lg:col-span-7 flex flex-col lg:items-end lg:text-right space-y-10 group/section w-full">
+                                    
+                                    <div class="flex flex-row-reverse items-center gap-6 text-indigo-500 font-mono text-xs tracking-widest uppercase w-full">
                                         <span>04</span>
                                         <div class="h-px flex-1 bg-indigo-500/20"></div>
                                         <span class="text-indigo-400">Continuous Learning</span>
                                     </div>
                                     
-                                    <div class="cursor-default overflow-hidden">
-                                        <h3 class="text-6xl md:text-[9rem] font-black leading-[0.8] uppercase tracking-tighter">
+                                    <div class="cursor-default overflow-hidden w-full lg:flex lg:justify-end">
+                                        <h3 class="text-6xl md:text-[8rem] lg:text-[9rem] font-black leading-[0.8] uppercase tracking-tighter text-right">
                                             <div class="relative block h-[0.9em] overflow-hidden">
-                                                <span class="absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
+                                                <span class="absolute right-0 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
                                                     text-transparent [-webkit-text-stroke:2px_rgba(255,255,255,0.4)]
                                                     group-hover/section:translate-x-full
-                                                    group-hover/section:opacity-0">
+                                                    group-hover/section:opacity-0 whitespace-nowrap">
                                                     NEW
                                                 </span>
-                                                <span class="absolute inset-0 translate-x-[-120%] opacity-0
+                                                <span class="absolute right-0 translate-x-[-120%] opacity-0
                                                     transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
-                                                    text-white-400
+                                                    text-white
                                                     group-hover/section:translate-x-0
-                                                    group-hover/section:opacity-100">
+                                                    group-hover/section:opacity-100 whitespace-nowrap">
                                                     NEW
                                                 </span>
                                             </div>
-                                            <span class="block transition-all duration-500 text-white group-hover/section:text-indigo-400 group-hover/section:italic group-hover/section:translate-x-[-15px]">
+                                            <span class="block transition-all duration-500 text-white group-hover/section:text-indigo-400 group-hover/section:italic group-hover/section:-translate-x-4">
                                                 HORIZONS
                                             </span>
                                         </h3>
                                     </div>
 
-                                    <p class="text-neutral-300 text-xl md:text-2xl font-light leading-relaxed max-w-lg">
+                                    <p class="text-neutral-400 text-xl md:text-3xl font-light leading-relaxed w-full lg:max-w-xl ml-auto text-right">
                                         Ampliando mi stack con tecnologías modernas para construir interfaces reactivas, flujos de datos complejos y arquitecturas con tipado estricto.
                                     </p>
 
-                                    <div class="flex flex-wrap gap-4 justify-start lg:justify-end">
+                                    <div class="flex flex-wrap gap-4 justify-end w-full">
                                         {[
                                             {id: 'react', name: 'React'}, 
                                             {id: 'nextjs', name: 'Next.js'}, 
@@ -335,9 +345,6 @@ const title = "Félix Corcoran | Full Stack & AI Automation";
                                                     alt={tech.name} 
                                                 />
                                                 <div class="absolute -bottom-2 w-0 h-px bg-indigo-500 group-hover/tech:w-full transition-all duration-500"></div>
-                                                <span class="absolute -bottom-8 text-[10px] font-mono text-indigo-400 opacity-0 group-hover/tech:opacity-100 uppercase tracking-widest whitespace-nowrap">
-                                                    {tech.name}
-                                                </span>
                                             </div>
                                         ))}
                                     </div>
